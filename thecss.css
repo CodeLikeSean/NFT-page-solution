@@ -1,0 +1,122 @@
+body {
+    font-size: 18px;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+section {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 400px;
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+
+}
+
+.imgone {
+    width: 350px;
+    height: 350px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+}
+
+h1 {
+    width: 350px;
+    color: white;
+    font-size: 25px;
+    margin-top: 0;
+    transition: color 1s;
+}
+
+.para {
+    width: 350px;
+    margin-bottom: 20px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.amount {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.eth {
+    color: cyan;
+    font-weight: 700;
+}
+
+.days {
+    color: hsl(215, 51%, 70%);
+    font-weight: 700;
+}
+
+hr {
+    margin-top: 20px;
+    width: 350px;
+    border: 0.1px solid hsl(215, 32%, 27%);
+    opacity: 0.5;
+}
+
+.imgtwo {
+    width: 30px;
+    height: 30px;
+    border: 0.5px solid white;
+    border-radius: 50%;
+}
+
+.bottom {
+    width: 350px;
+    display: flex;
+}
+
+.bottom .create {
+    color: hsl(215, 51%, 70%);
+    font-weight: 600;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: white;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.eye {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+h1:hover {
+    color: cyan;
+}
+
+a:hover {
+    color: cyan;
+}
+
+.attribution {
+    color: white;
+}
+
+.attribution a {
+    color: cyan;
+}
